@@ -4,11 +4,11 @@ extern crate serde;
 extern crate serde_json;
 
 mod config;
-mod error;
 mod context;
+mod error;
 mod program;
 
-use crate::error::{Error};
+use crate::error::Error;
 
 /// A wrapper around the [`program::entrypoint`] which prints readable error logs when it fails.
 fn main() {

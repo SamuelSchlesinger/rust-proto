@@ -30,4 +30,4 @@ impl Error {
 // ================
 //
 // Is it bad to log configs in general? Perhaps one could use a newtype for obfuscating
-// certain fields of a Debug impl neatly.
+// certain fields of : Debug impl neatly.
